@@ -1,0 +1,7 @@
+.ag-theme-my-custom {
+    --ag-font-family: 'Nunito', sans-serif;
+    --ag-font-size: 14px;
+    --ag-row-height: 40px;
+    --ag-grid-size: 1px; /* affects spacing/padding */
+    --ag-header-height: 50px;
+  }
