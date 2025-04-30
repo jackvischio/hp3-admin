@@ -97,6 +97,7 @@ export const giornata = pgTable("giornata", {
 	nome: varchar({ length: 50 }),
 	show: boolean().default(true).notNull(),
 	fkCampionato: integer("fk_campionato").notNull(),
+	order: integer().default(1).notNull(),
 });
 
 export const giocatore = pgTable("giocatore", {

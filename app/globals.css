@@ -25,3 +25,11 @@ body {
 .no-underline {
   text-decoration: none !important;
 }
+
+.sora {
+  font-family: 'Sora', sans-serif !important;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
